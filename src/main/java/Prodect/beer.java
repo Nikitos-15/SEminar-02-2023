@@ -15,6 +15,6 @@ public class beer extends Product{
 
     @Override
     public String toString() {
-        return String.format("%s alcohol = %d \n", super.toString(), alcohol);
+        return String.format("%s alcohol = %d ", super.toString(), alcohol);
     }
 }
